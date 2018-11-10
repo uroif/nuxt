@@ -15,7 +15,6 @@ export default {
   },
   async fetch({ store, params }){
     const response =  await getBlogs()
-    console.log(response.data)
     store.dispatch('blog/insertBlogs', response.data)
   },
   created(){

@@ -6,11 +6,12 @@
       <el-col :span="8"><div class="grid-content">Logo</div></el-col>
       <el-col :span="8" :offset="8">
         <div class="grid-content">
-          <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" background-color="#545c64" text-color="#fff" active-text-color="#ffd04b">
+          <el-menu class="el-menu-demo" mode="horizontal" background-color="#545c64" text-color="#fff" active-text-color="#ffd04b">
             <el-menu-item index="1"><a href="/" >Home</a></el-menu-item>
-            <el-menu-item index="2"><a href="/albums" >Albums</a></el-menu-item>
-            <el-menu-item index="3"><a href="/photos" >Photos</a></el-menu-item>
-            <el-menu-item index="4"><a href="/todos" >Todos</a></el-menu-item>
+            <el-menu-item index="2"><a href="/users" >Users</a></el-menu-item>
+            <el-menu-item index="3"><a href="/posts" >Posts</a></el-menu-item>
+            <el-menu-item index="4"><a href="/albums" >Albums</a></el-menu-item>
+            <el-menu-item index="5"><a href="/todos" >Todos</a></el-menu-item>
           </el-menu>
         </div>
       </el-col>
