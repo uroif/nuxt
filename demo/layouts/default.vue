@@ -3,23 +3,22 @@
   <el-container>
   <el-header>
     <el-row>
-      <el-col :span="8"><div class="grid-content">Logo</div></el-col>
-      <el-col :span="8" :offset="8">
+      <el-col :span="4"><div class="grid-content">Logo</div></el-col>
+      <el-col :span="10" :offset="10">
         <div class="grid-content">
           <el-menu class="el-menu-demo" mode="horizontal" background-color="#545c64" text-color="#fff" active-text-color="#ffd04b">
-            <el-menu-item index="1"><a href="/" >Home</a></el-menu-item>
-            <el-menu-item index="2"><a href="/users" >Users</a></el-menu-item>
-            <el-menu-item index="3"><a href="/posts" >Posts</a></el-menu-item>
-            <el-menu-item index="4"><a href="/albums" >Albums</a></el-menu-item>
-            <el-menu-item index="5"><a href="/todos" >Todos</a></el-menu-item>
+            <el-menu-item index="1"><nuxt-link to="/" >Home</nuxt-link></el-menu-item>
+            <el-menu-item index="2"><nuxt-link to="/users" >Users</nuxt-link></el-menu-item>
+            <el-menu-item index="3"><nuxt-link to="/posts" >Posts</nuxt-link></el-menu-item>
+            <el-menu-item index="4"><nuxt-link to="/albums" >Albums</nuxt-link></el-menu-item>
+            <el-menu-item index="5"><nuxt-link to="/todos" >Todos</nuxt-link></el-menu-item>
           </el-menu>
         </div>
       </el-col>
     </el-row>
   </el-header>
   <el-container>
-    <el-main><nuxt/></el-main>
-    <el-aside width="400px">Aside</el-aside>
+    <nuxt/>
   </el-container>
 </el-container>
 </div>
@@ -29,7 +28,6 @@
 export default {
   data() {
     return {
-      activeIndex: '1'
     };
   }
 }
@@ -38,7 +36,7 @@ export default {
 
 <style>
 #container{
-  width: 1200px;
+  width: 1000px;
   margin: auto;
 }
 *,

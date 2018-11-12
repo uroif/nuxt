@@ -1,21 +1,27 @@
 <template>
-  <section class="container">
-    <div>
-      <BlogPost v-for="post in this.$store.state.blog.blogs" v-bind:key="post.id" v-bind:post="post"/>
-    </div>
-  </section>
+  <div class="container">
+    <post-list/>
+    <user-list/>
+  </div>
 </template>
 
 <script>
-import BlogPost  from "~/components/BlogPost.vue";
-import { getBlogs, getBlogById} from "@/apis/blog";
+import PostList  from "@/components/blog/postlist.vue";
+import UserList  from "@/components/blog/userlist.vue";
+import BlogApi from "@/apis/blog";
 export default {
   components: {
-    BlogPost
+    PostList,
+    UserList
   },
-  async fetch({ store, params }){
-    const response =  await getBlogs()
-    store.dispatch('blog/insertBlogs', response.data)
+  async fetch({ store, query }){
+    let response
+    if(query.userId){
+      response =  await BlogApi.getBlogsByUserId(query.userId)
+    }else{
+      response =  await BlogApi.getBlogs()
+    }
+    store.dispatch('blogmodule/insertBlogs', response.data)
   },
   created(){
   }
@@ -27,9 +33,9 @@ export default {
 .container {
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
 }
 
 .title {
@@ -50,7 +56,4 @@ export default {
   padding-bottom: 15px;
 }
 
-.links {
-  padding-top: 15px;
-}
 </style>
