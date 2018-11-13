@@ -6,12 +6,12 @@ export default {
         return response
     },
     getBlogsByUserId: function(id){
-        let url = `${base_url}/posts?userId=${id}`
         let response = axios.get(`${base_url}/posts?userId=${id}`)
         return response
     },
     getBlogById: function(id) {
-        axios.get(base_url+'/posts/'+id)
+        let response = axios.get(`${base_url}/posts/${id}`)
+        return response
     }
 }
  
