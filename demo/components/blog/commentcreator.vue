@@ -34,7 +34,10 @@ export default {
         async onSubmit() {
             this.comment.postId = this.$store.state.blogmodule.blog.id
             let response = await CommentApi.insertComment(this.comment)
-            console.log(response)
+            if(response.status==201){
+                console.log("38")
+                this.$store.dispatch("commentmodule/insertComment",response.data)
+            }
       }
     }
 }

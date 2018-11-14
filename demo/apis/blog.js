@@ -1,5 +1,5 @@
 const axios = require('axios');
-const base_url = 'https://jsonplaceholder.typicode.com'
+const base_url = 'http://localhost:3001'
 export default {
     getBlogs: function() {
         let response = axios.get(`${base_url}/posts`)
