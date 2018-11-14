@@ -1,5 +1,5 @@
 const axios = require('axios');
-const base_url = 'http://localhost:3001'
+const base_url = 'https://jsonplaceholder.typicode.com'
 
 export const actions = {
     async nuxtServerInit ({ commit }) {
