@@ -22,11 +22,10 @@ export default {
     data() {
       return {
             comment: {
-            postId: '',
-            id: '',
-            name: '',
-            email: '',
-            body: ''
+                postId: '',
+                name: '',
+                email: '',
+                body: ''
             }
         }
     },
@@ -34,7 +33,9 @@ export default {
         async onSubmit() {
             this.comment.postId = this.$store.state.blogmodule.blog.id
             let response = await CommentApi.insertComment(this.comment)
-            console.log(response)
+            if(response.status == 201){
+                this.$store.dispatch("commentmodule/insertComment", response.data)               
+            }
       }
     }
 }
