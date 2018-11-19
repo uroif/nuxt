@@ -17,9 +17,9 @@
       </el-col>
     </el-row>
   </el-header>
-  <el-container>
+  <div>
     <nuxt/>
-  </el-container>
+  </div>
 </el-container>
 </div>
 </template>

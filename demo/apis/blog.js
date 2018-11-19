@@ -24,5 +24,5 @@ export default {
     async deleteBlog(post){
         let response = await axios.delete(`${base_url}/posts/${post.id}`)
         return response
-    },
+    }
 }

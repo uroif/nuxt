@@ -1,6 +1,6 @@
 <template>
     <div class="grid-content bg-color">
-        <el-form ref="comment" :model="comment" label-width="120px" >
+        <el-form ref="comment" label-position="left" :model="comment" label-width="100px" >
         <el-form-item label="Name">
             <el-input v-model="comment.name"></el-input>
         </el-form-item>

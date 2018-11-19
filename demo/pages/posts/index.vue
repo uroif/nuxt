@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <el-container>
     <post-list/>
     <user-list/>
-  </div>
+  </el-container>
 </template>
 
 <script>
@@ -22,18 +22,6 @@ export default {
       response =  await BlogApi.getBlogs()
     }
     store.dispatch('blogmodule/insertBlogs', response.data)
-  },
-  created(){
   }
 }
 </script>
-
-<style>
-
-.container {
-  display: flex;
-}
-
-
-
-</style>

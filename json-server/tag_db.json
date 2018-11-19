@@ -1,0 +1,52 @@
+{
+	"tags":[
+		{
+			"name": "HTML",
+			"posts_number": 7
+		},
+		{
+			"name": "CSS",
+			"posts_number": 8
+		},
+		{
+			"name": "Javascript",
+			"posts_number": 9
+		},
+		{
+			"name": "VueJS",
+			"posts_number": 10
+		},
+		{
+			"name": "React",
+			"posts_number": 0
+		},
+		{
+			"name": "PHP",
+			"posts_number": 1
+		},
+		{
+			"name": "CakePHP",
+			"posts_number": 0
+		},
+		{
+			"name": "Lavarel",
+			"posts_number": 7
+		},
+		{
+			"name": "Python",
+			"posts_number": 12
+		},
+		{
+			"name": "Ruby",
+			"posts_number": 2
+		},
+		{
+			"name": "RoR",
+			"posts_number": 1
+		},
+		{
+			"name": "DevOps",
+			"posts_number": 13
+		}
+	]
+}
