@@ -1,22 +1,29 @@
 # demo
 
-> My dazzling Nuxt.js project
+> Demo nuxt project, base on jsonplaceholder API and json-server
 
 ## Build Setup
 
 ``` bash
+# install json-server
+$ npm install -g json-server
+
+#start json-server on port 3001
+$ cd nuxt/json-server
+$ json-server --watch demo_db.json --port 3001
+
 # install dependencies
-$ yarn install
+$ npm install
 
 # serve with hot reload at localhost:3000
-$ yarn run dev
+$ npm run dev
 
 # build for production and launch server
-$ yarn run build
-$ yarn start
+$ npm run build
+$ npm start
 
 # generate static project
-$ yarn run generate
+$ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
