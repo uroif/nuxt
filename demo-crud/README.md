@@ -1,18 +1,18 @@
-# demo
+# demo-crud
 
-> Demo nuxt project, base on jsonplaceholder API and json-server
+> My hunky-dory Nuxt.js project
 
 ## Build Setup
 
 ``` bash
-# install json-server
-$ npm install -g json-server
-
-#start json-server on port 3001
-$ json-server --watch db.json --port 3001
-
 # install dependencies
 $ npm install
+
+# install json server
+$ npm install -g json-server
+
+# run json server
+$ json-server --watch static/db.json --port 3001
 
 # serve with hot reload at localhost:3000
 $ npm run dev
