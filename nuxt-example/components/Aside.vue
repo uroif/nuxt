@@ -14,12 +14,13 @@
           <nuxt-link to="/" tag="li" class="aside-nav-link"><a>Homepage</a></nuxt-link>
           <nuxt-link to="/products" tag="li" class="aside-nav-link"><a>Products</a></nuxt-link>
           <nuxt-link to="/about" tag="li" class="aside-nav-link"><a>About</a></nuxt-link>
+          <nuxt-link to="/blogs" tag="li" class="aside-nav-link"><a>Blogs</a></nuxt-link>
 
         </ul>
       </nav>
 
       <p class="aside-copyright">
-        © Copyright 2018. All Rights Reserved.
+        © Copyright 2019
       </p>
 
     </aside>
@@ -33,7 +34,7 @@
 <style>
 
   .aside {
-    width: 300px;
+    width: 200px;
     height: 100%;
     background: #fff;
     position: fixed;
@@ -77,7 +78,7 @@
   }
 
   .aside-nav-link a {
-    color: rgba(#000, 0.6);
+    color: rgba(0,0,0, 0.6);
     font-size: 15px;
     letter-spacing: 1px;
   }
@@ -98,7 +99,7 @@
     line-height: 50px;
     font-size: 13px;
     text-align: center;
-    color: rgba(#000, 0.6);
+    color: rgba(0,0,0, 0.6);
   }
 
 </style>
