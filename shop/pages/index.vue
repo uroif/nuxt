@@ -39,12 +39,28 @@
       };
     },
 
+    mounted() {
+      if (localStorage.cartTotal) {
+        this.$store.state.counter = localStorage.counter;
+      }
+
+      if (localStorage.getItem("cart")) {
+        try {
+          this.$store.state.cart = JSON.parse(localStorage.getItem("cart"));
+        } catch (e) {
+          localStorage.removeItem("cart");
+        }
+      }
+    },
+
     computed: {
       cartTotal() {
         return this.$store.state.counter;
+      },
+      cart() {
+        return this.$store.state.cart;
       }
     }
-
   };
 </script>
 

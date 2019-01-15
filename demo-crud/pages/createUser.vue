@@ -1,12 +1,14 @@
 <template>
   <el-container>
-    <user-form 
+    <user-form
       type="create"
       @create-user="createUser"/>
   </el-container>
 </template>
+
 <script>
 import UserForm from '@/components/userForm'
+
 export default {
   components: { UserForm },
   methods: {
@@ -17,5 +19,6 @@ export default {
   }
 }
 </script>
+
 <style scoped>
 </style>
