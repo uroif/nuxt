@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4dd647c-5b4e-4c2e-b33c-5d4ab52ba285" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-example/components/Blog.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-crud/pages/createUser.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo-crud/pages/createUser.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/shop/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/pages/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/shop/pages/store/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="a4dd647c-5b4e-4c2e-b33c-5d4ab52ba285" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,7 +15,7 @@
     <session id="-1863550479">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -88,7 +81,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/simple-todo-list-nuxt" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -226,12 +219,12 @@
       <workItem from="1547275405555" duration="6869000" />
       <workItem from="1547285060277" duration="413000" />
       <workItem from="1547426364984" duration="565000" />
-      <workItem from="1547539026393" duration="4899000" />
+      <workItem from="1547539026393" duration="5213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23946000" />
+    <option name="totallyTimeSpent" value="24260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,7 +243,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32996634" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2536476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
